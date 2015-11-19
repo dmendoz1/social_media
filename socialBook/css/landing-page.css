@@ -1,0 +1,788 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    background: #fff6e5;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a {
+	color: orange;
+	font-weight: normal;
+}
+a:hover {
+	color: orange;
+}
+
+.main-blocks {
+    position: relative;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+
+.follower_notification {
+	width: 200px;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid orange;
+	margin-bottom: 4px;
+	background: #eef7fa;
+	position: relative;
+	top:-2px;
+	left: 20px;
+	border-radius: 10px;
+	
+}
+
+#follow_notification_wrapper {
+	margin-top: 60px;
+	position: absolute;
+	z-index: 1;
+}
+
+.follow-notification-close {
+	float: right;
+	background: none;
+	border: none;
+}
+
+
+
+
+/************LOGIN NAV ***************/
+#loginnav {
+	min-height: 95px;
+	width: 100%;
+	background: orange;
+	position: relative;
+}
+
+.label-login {
+	padding: 0 7px 0;
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+td {
+	padding: 0 7px 0;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+
+.textbox {
+	color: #7e7e7e;
+	width: 220px;
+	float: left;
+	margin: 10px;
+	height: 40px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 18px; 
+	padding-left: 5px;
+	border-radius: 4px; 
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+
+
+.registerRadio {
+	color: #7e7e7e;
+	width: 220px;
+	float: left;
+	margin: 10px;
+	height: 40px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 18px; 
+	padding-left: 5px;
+	border-radius: 4px; 
+	border: none;
+	background-color: none;
+}
+
+
+#loginForm {
+	width: 100%;
+	margin-top: 15px;
+}
+
+#registerButton {
+	color: white;
+	border-radius: 5px;
+	border: none;
+	background: #EE7600;
+	box-shadow: 1px 1px 1px black;
+	transition: background-color 0.5s ease;
+}
+
+#registerButton:hover {
+	color: white;
+	background: #bb5d00;
+}
+
+#registerWrapper {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#login-button {
+	width: 90px;
+	background: #EE7600;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+#registerForm {
+	text-align: left;
+	color: black;
+}
+
+#loginMission {
+	color: black;
+}
+
+#incorrectPass {
+	color: black;
+	font-size: 12px;
+	width: 300px;
+	font-weight: normal;
+	padding: 3px;
+	visibility: hidden;
+	background: #ffebe8;
+	border: 1px solid red;
+	position: absolute;
+	z-index: 222;
+	bottom: 0;
+	right: 10px;
+}
+
+#incorrectPassMobile {
+	color: black;
+	width:90%;
+	font-size: 12px;
+	font-weight: normal;
+	visibility: hidden;
+	position: absolute;
+	border: 1px solid red;
+	background: #ffebe8;
+	z-index: 222;
+	bottom: 0;
+}
+
+#registerError {
+	color: black;
+	font-size: 12px;
+	width: 280px;
+	clear: both;
+	text-align: left;
+	font-weight: normal;
+	padding: 3px;
+	visibility: hidden;
+	background: #ffebe8;
+	border: 1px solid red;
+}
+
+#logo {
+	display: none;
+	position: static;
+	color: white;
+	font-size: 30px;
+	
+}
+
+#loginMission {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#loginFormMobile {
+	display: none;
+	margin-bottom: 20px;
+	background: #e4e4e4;
+	font-size: 20px;
+	padding-top: 15px;
+	color: #3f3f3f;
+	height: 230px;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+
+
+/**************** MAIN NAVBAR *****************/
+
+#mainnav {
+	background: orange;
+	width: 100%;
+	border: none;
+	height: 50px;
+}
+.navbar-inverse .navbar-nav > li > a,  .navbar-inverse .navbar-nav > li > a:hover{
+	color: white;
+	font-size: 14px;
+	background: none;
+	text-align: center;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background: none;
+	color: #e57e00;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #e57e00;
+	background: none;
+}
+
+i.icon-size {
+	font-size: 24px;
+}
+
+#search-bar {
+	width: 250px;
+	background: white;
+	border: none;
+	height: 35px;
+	padding: 10px;
+	font-weight: normal;
+	margin-right: 0;
+	margin-top: -1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+
+#navbar {
+	background: orange;	
+	margin: auto;
+}
+
+#members-search-list {
+	background: #f9f9f9;
+	width: 290px;
+	margin-top: -11px;
+	margin-left: 15px;
+	visibility: hidden;
+	color: orange;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-weight: normal;
+}
+
+.search-btn {
+	height: 35px;
+	width: 40px;
+	margin-left: -5px;
+	background: white;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.search-icon {
+	color: orange;
+}
+
+
+.search-pics {
+	margin-top: 3px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
+
+#badge {
+	visibility: hidden;
+	background: red;
+	color: white;
+}
+
+#login-button-two {
+	width: 90px;
+	background: #EE7600;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+
+/************** POST STATUS **************/
+
+#post_status {
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #e9e9e9;
+	text-align: right;
+}
+
+#status_post_textbox {
+	width: 100%;
+	max-width: 100%;
+	padding: 5px;
+	height: 80px;
+	resize: none;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-right: none;
+	border-left: none;
+	background: #fff6e5;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.dateTime {
+	font-size: 12px;
+	color: #a8a8a8;
+	font-weight: normal;
+}
+
+.status-content {
+	font-weight: normal;
+	color: black;
+	font-size: 14px;
+	
+}
+
+.button {
+	background: orange;
+	color: white;
+	border: none;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(orange, darkOrange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, darkOrange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, darkOrange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, darkOrange); /* Standard syntax (must be last) */
+}
+
+
+/**************** FEED ******************/
+#feed {
+	padding: 10px;
+	background: white;
+	margin-bottom: 20px;
+}
+
+.status_item {
+	background: #f2f2f2;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid lightGray;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid lightGray;
+}
+
+
+
+.nav-stacked {
+	font-size: 16px;
+}
+
+.nav-stacked:hover {
+	background: none !important;
+}
+
+
+/************* MEMBERS DIRECTORY ****************/
+#member-dir {
+	color: darkOrange;
+	margin-bottom: 15px;
+	margin-top: 60px;
+}
+.member_names {
+	margin-top:15px;
+}
+
+.following_names {
+	margin-top: 5px;
+}
+
+.directory_item {
+	height: 150px;
+	width: 165px;
+	float: left;
+	margin: 5px;
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	border: 1px solid lightgray;
+	padding: 10px;
+}
+
+
+/*************** MESSAGES PAGE *******************/
+#message-create {
+	background: #ffefd1;
+	border-left: 1px solid orange;
+	border-right: 1px solid orange;
+	float: left;
+	width: 30%;
+	max-width: 430px;
+	min-width: 350px;
+	height: 300px;
+	clear: both;
+	position: fixed;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#message-create .button {
+	float: right;
+	clear: both;
+	margin-top: 10px;
+	min-width: 100px;
+	width: 20%;
+	max-width: 200px;
+}
+
+#message-create textarea{
+	width: 65%;
+	float: right;
+	font-weight: normal;
+	background: #fffdf9;
+	border: none;
+}
+
+
+#message-create textarea {
+	height: 100px;
+	resize: none;
+}
+
+#message-create label {
+	color: orange;
+	margin-right: 30px;
+}
+
+#message-inbox {
+	padding: 10px;
+	width: 50%;
+	float: left;
+	margin-left: 50%;
+	text-align: center;
+	
+}
+
+.option {
+	background: #fff6e5;
+	color: orange;
+	border: none;
+	float: right;
+	width: 70%;
+}
+
+.message-item {
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid lightGray;
+	font-weight: normal;
+}
+
+#message_notification {
+	width: 200px;
+	height: 90px;
+	background: white;
+	border: 1px solid orange;
+}
+
+.marginTopAlways {
+	margin-top: 60px;
+}
+
+
+
+/*********** PROFILE ****************/
+.following_names {
+	display: inline-block;
+	width: 160px;
+	margin-right: 2px;
+}
+
+.following-block{
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-bottom: 30px;
+	background: white;
+	max-height: 250px;
+	overflow: scroll;
+	max-height: 300px;
+	margin: 2px;
+}
+
+.follow-button {
+	width: 120px;
+	border: 1px solid #79c879;
+	background: white;
+	color: #79c879;
+}
+
+.unfollow-button {
+	border: 1px solid red;
+	color: red;
+}
+
+#left-block-writing {
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.personal-status {
+	padding: 10px;
+	background: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#profpic {
+	width: 160px;
+	height: 160px;
+	background: white;
+	padding: 5px;
+	border: 1px solid lightGray;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+
+
+/************* EDIT **************/
+#edit-wrapper {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.textbox-edit {
+	color: #7e7e7e;
+	width: 220px;
+	margin: 10px;
+	height: 40px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 18px; 
+	padding-left: 5px;
+	border-radius: 4px; 
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.labels-edit {
+	width: 160px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#profpic-edit {
+	width: 160px;
+	height: 160px;
+	background: white;
+	padding: 5px;
+	border: 1px solid lightGray;
+	margin-bottom: 10px;
+}
+
+#editError {
+	position: absolute;
+}
+
+#profpic-edit-wrapper {
+	margin-top: 30px;
+}
+
+.profpic-update {
+	margin-top: 20px;
+}
+
+#profpicError {
+	color: red;
+	font-weight: normal;
+}
+
+#edit-button {
+	margin-left: 32%;
+}
+
+/*********** RESPONSIVE ****************/
+
+@media(max-width:767px) {
+    #navbar  {
+    	width: 100%;
+    }
+    #navbar ul  {
+    	width: 100%;
+    	text-align: center;
+    }
+    
+    #search-bar {
+    	display: none;
+    }
+    
+    #search-button { 
+    	display: none;
+    }
+    
+    .navbar-inverse .navbar-toggle {
+    	border: 1px solid white;
+    }
+    
+    .navbar-inverse .navbar-toggle:hover {
+    	background: none;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    	border: none;
+    	padding-top: 0;
+    }
+    
+    .navbar-inverse .navbar-toggle:focus {
+    	background: orange;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a,  .navbar-inverse .navbar-nav > li > a:hover{
+		background: orange;
+		color: white;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+		background: orange;
+	}
+	.pull-right {
+		float: none !important;
+	}
+	
+	#message-create {
+		position: relative;
+	}
+	#message-inbox {
+		margin-left: 0px;
+		width: 100%;
+	}
+	#message-inbox h3 {
+		text-align: center;
+	}
+	#message-create {
+		width: 100%;
+		max-width: 100%;
+		padding-right: 6%;
+		padding-left: 6%;
+	}
+	#members-search-list {
+		display: none;
+	}
+	#edit-button {
+		margin: 10px 0 0 0;
+	}
+	
+	#loginMission {
+		display: none;
+	}
+	
+	
+	#login-button-two {
+		width: 150px;
+	}
+	
+	.main-blocks {
+		margin-top: 10px;
+	}
+	
+	#loginnav {
+		min-height: 0;
+		height: 45px;
+	}
+	
+	#logo {
+		display: inline;
+	}
+	#loginnav {
+		text-align:center;
+	}
+	
+	#loginForm {
+		display: none;
+	}
+	
+	#loginFormMobile {
+		display: block;
+	}
+	.loginTextbox {
+		clear: right;
+		clear: left;
+		width: 90%;
+		margin: 4px auto;
+	}
+	
+	#registerWrapper {
+		text-align: center;
+		background: #ffc966;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		border-radius: 10px;
+		padding: 10px ;
+		color: #3f3f3f;
+		width: 90%;
+		height: 640px;
+	}
+	
+	#firstName, #lastName, #usernameNew, #age, #hometown, #passwordNew, 
+	#passwordAgain, #username-edit, #password-edit, #age-edit{
+		width: 95%;
+	}
+	
+	
+	#registerButton {
+		float: right;
+	}
+	
+	#incorrectPass {
+		display: none;
+	}
+	
+	.marginTop {
+		margin-top: 60px;
+	}
+	
+	.follower_notification {
+		top:-60px;
+	}
+	
+	#member-dir {
+		margin-top: 0;
+	}	
+	
+	#follow_notification_wrapper {
+		margin-top: 60px;
+		position: absolute;
+		z-index: 1;
+	}
+}
